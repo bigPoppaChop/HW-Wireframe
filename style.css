@@ -9,42 +9,63 @@ body {
   background: #777;
   width: 960px;
   font-size: 18px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .header, .nav, .section, .aside, .footer {
   background: #ebebeb;
 }
 
+.header {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
 .section {
   width: 495px;
+  height: 300px;
   float: left;
-  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 100px;
 }
 
 .aside {
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
+  width: 445px;
+  height: 300px;
+  margin-bottom: 10px;
 }
 
 .article {
   color: #ebebeb;
   background: #777;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
+  padding: 12px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  
 }
 
 .h123, .paragraph {
   color: #777;
   background: #ebebeb;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 20px;
+  padding: 10px;
 
 }
 .footer {
-  margin: 20px;
   padding: 20px;
+  /* background: red; */
+  clear: both;
+  
 }
 
 .clearfix::after {
